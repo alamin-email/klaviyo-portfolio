@@ -102,7 +102,88 @@ font-weight:600;
 }
 
 </style>
+/* SERVICES */
 
+.services{
+padding:90px 0;
+background:#0f172a;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.service-card{
+background:#1e293b;
+padding:30px;
+border-radius:12px;
+transition:.3s;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+border-color:#22c55e;
+}
+
+.service-card h3{
+margin-bottom:15px;
+color:#22c55e;
+font-size:22px;
+}
+
+.service-card p{
+color:#cbd5e1;
+font-size:16px;
+}
+  /* EMAIL PORTFOLIO */
+
+.portfolio{
+padding:90px 0;
+background:#111827;
+}
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.portfolio-card{
+background:#1e293b;
+border-radius:12px;
+overflow:hidden;
+transition:.3s;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.portfolio-card:hover{
+transform:translateY(-8px);
+border-color:#22c55e;
+}
+
+.portfolio-card img{
+width:100%;
+display:block;
+}
+
+.portfolio-content{
+padding:22px;
+}
+
+.portfolio-content h3{
+margin-bottom:10px;
+color:#22c55e;
+}
+
+.portfolio-content p{
+color:#cbd5e1;
+font-size:15px;
+}
 </head>
 <body>
 
@@ -149,6 +230,113 @@ Whether you're launching a new Shopify store or scaling an established brand, I 
 </div>
 
 </section>
+<section class="services">
 
+<div class="container">
+
+<h2 class="section-title">My Klaviyo Services</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Email Campaigns</h3>
+<p>Create promotional, seasonal, product launch, and sales campaigns that drive engagement and revenue.</p>
+</div>
+
+<div class="service-card">
+<h3>Automated Flows</h3>
+<p>Welcome Series, Abandoned Cart, Browse Abandonment, Post Purchase and Win-back flows.</p>
+</div>
+
+<div class="service-card">
+<h3>Segmentation</h3>
+<p>Build targeted customer segments for personalized email marketing and higher conversions.</p>
+</div>
+
+<div class="service-card">
+<h3>Email Design</h3>
+<p>Responsive, mobile-friendly email designs that match your brand identity and improve click rates.</p>
+</div>
+
+<div class="service-card">
+<h3>A/B Testing</h3>
+<p>Optimize subject lines, content, and send times to improve open rates and conversions.</p>
+</div>
+
+<div class="service-card">
+<h3>Klaviyo Management</h3>
+<p>Complete Klaviyo account setup, campaign management, reporting, and ongoing optimization.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+  <section class="portfolio">
+
+<div class="container">
+
+<h2 class="section-title">Email Design Portfolio</h2>
+
+<p style="color:#cbd5e1;margin-bottom:40px;">
+Professional Klaviyo email designs created for eCommerce brands.
+</p>
+
+<div class="portfolio-grid">
+
+<div class="portfolio-card">
+
+<img src="https://placehold.co/700x900/1e293b/ffffff?text=Email+Design+1">
+
+<div class="portfolio-content">
+
+<h3>Welcome Email</h3>
+
+<p>
+Clean and modern welcome email designed to introduce the brand and encourage first-time purchases.
+</p>
+
+</div>
+
+</div>
+
+<div class="portfolio-card">
+
+<img src="https://placehold.co/700x900/1e293b/ffffff?text=Email+Design+2">
+
+<div class="portfolio-content">
+
+<h3>Product Launch</h3>
+
+<p>
+High-converting promotional email focused on new product launches and limited-time offers.
+</p>
+
+</div>
+
+</div>
+
+<div class="portfolio-card">
+
+<img src="https://placehold.co/700x900/1e293b/ffffff?text=Email+Design+3">
+
+<div class="portfolio-content">
+
+<h3>Abandoned Cart</h3>
+
+<p>
+Recovery email designed to bring customers back and increase completed purchases.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
 </body>
 </html>
